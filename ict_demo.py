@@ -512,6 +512,9 @@ def computeJensenShanon(sequence, frames_first):
 
 if __name__ == '__main__':
         
+#   Due to GitHub upload file size restrictions it was not possible to upload any demostration file.
+#   If used with custom data please adapt the code to your case of carefully.
+
     data = openmat('./data/CFRP_006_compressed.mat')
     if isinstance(data, dict):
         data = data['a65']
